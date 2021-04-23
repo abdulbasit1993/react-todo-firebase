@@ -4,7 +4,7 @@ A simple TodoList Web Application written using the React JS library and using t
 
 # Live Demo
 
-<a href="https://enigmatic-reaches-03580.herokuapp.com/">Click Here</a> to view the Web App in your browser!
+<a href="https://enigmatic-reaches-03580.herokuapp.com/" target="_blank">Click Here</a> to view the Web App in your browser!
 
 # Getting Started with Create React App
 
