@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App {
+    text-align: center;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.App-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.App-subHeading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.styledButton {
+    background: #2F80ED;
+    color: #fff;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid #2F80ED;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    box-shadow: 4px 4px 8px -1px rgb(103 69 69 / 26%);
+    -webkit-box-shadow: 4px 4px 8px -1px rgb(103 69 69 / 26%);
+    -moz-box-shadow: 4px 4px 8px -1px rgb(103 69 69 / 26%);
+    transition: all 0.3s;
+}
+.styledButton:hover {
+    background: #2269c5;
+    border-color: #2269c5;
+}
+
+.extraBtnstyle {
+    margin: 10px;
+}
+
+.inputbox {
+    height: 40px;
+    width: 35%;
+    border-radius: 5px;
+}
+
+.todoDiv {
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 40%;
+    padding: 25px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.todoDiv h1 {
+    font-size: 28px;
+}
+
+/* For Mobile Responsive */
+@media only screen and (max-width: 680px) {
+    .todoDiv {
+        width: 80%;
+    }
+
+    .inputbox {
+        height: 40px;
+        width: 80%;
+        border-radius: 5px;
+    }
+}
